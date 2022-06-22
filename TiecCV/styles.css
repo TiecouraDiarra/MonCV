@@ -7,68 +7,67 @@
 	margin-right: 5vw;
 	margin-top: 1vh;
 }
-.cnt1{
+.cnt1-img{
 	text-align: center;
 }
-div[class="cnt1"] h3{
-	margin: 9px;
+.info-pers ul li {
+	padding: .3rem;
+}
+.cnt1 h3{
+	margin: 0px;
+	margin-left: 45px;
 	padding: 0px;
 	margin-bottom: 10px;
 }
-div[class="cnt1"] p{
+.cnt1 p{
 	margin: 9px;
 	padding: 0px;
 	margin-bottom: 10px;
+	margin-left: 45px;
 }
-div[class="cnt1"] h1{
+.cnt1 h1{
 	margin: 9px;
 	padding: 0px;
 	font-weight: bold;
+	margin-left: 45px;
 }
-div[class="conteneur4"] h1{
+.conteneur4 h1{
 	margin: 0;
 	margin-top: 20px;
 	margin-bottom: 0;
 	font-size: 16px;
 	font-weight: bold;
 }
-div[class="cnt4"] h4{
+.cnt4 h4{
 	margin: 0;
 	padding: 0;
 	font-size: 14px;
-	/*padding: .3rem;*/
 }
-div[class="cnt4"] h5{
+.cnt4 h5{
 	margin: 0;
 	font-weight: 400;
 	font-size: 16px;
 	padding: 0px;
 }
-div[class="cnt4"] p{
+.cnt4 p{
 	margin-top: -3px;
 	font-weight: normal;
-}
-.conteneur{
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: space-around;
 }
 .conteneur1{
 	display: flex;
 	justify-content: space-around;
 }
-.cnt:nth-child(1){
+.cnt.un{
 	background-color: #94a6b2;
 	order: 1;
 }
-.cnt:nth-child(2){
+.cnt.deux{
 	background-color: #353e4d;
 	flex: 10vw;
 	color: white;
 	order: 2;
 }
-.cnt:nth-child(3){
+.cnt.trois{
 	background-color: white;
 	flex: 25vw;
 	order: 3;
@@ -77,39 +76,43 @@ div[class="cnt4"] p{
 .cnt1:nth-child(2){
 	flex: 25vw;
 }
-.cnt1:nth-child(1){
+/*.cnt1:nth-child(1){
 	flex: 10vw;
-}
+}*/
 main{
 	width: 60vw;
 	margin: auto;
 	box-shadow: 30px 0px 40px rgb(196, 196, 196), -30px 0px 40px rgb(196, 196, 196);
 }
-/*h1,h2{
-	margin: 0;
-}*/
+.conteneur{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
 .profil{
 	margin-top: -12px;
 	margin-bottom: 5px;
 	padding: 0;
 }
-.tt img{
+.icon img{
 	/*display: inline-block;
 	float: right;*/
 	width: 30px;
 	height: 20px;
 	margin-bottom: -5px;
 }
-.tt span{
+.icon span{
 	margin-top:-20px;
 }
-.tt1{
+.info-pers{
 	
 }
-.tt1 h2{
+.info-pers h2{
 	font-size: 16px;
 }
-.tt1 h3{
+.info-pers h3{
 	font-size: 15px;
 }
 .conteneur3{
@@ -153,27 +156,25 @@ ul{
 	padding-left: 0px;
 	padding-right: 0px;
 	}
-	.tt1 h2{
+	.info-pers h2{
 		font-size: 10px;
 	}
-	.tt1 h3{
+	.info-pers h3{
 		font-size: 9px;
 	}
-	.tt span{
+	.icon span{
 		font-size: 
 	}
-	.tt1{
+	.info-pers{
 		margin: 0;
 		margin-left: -10px;
 	}
-	.tt1{
+	.info-pers{
 		
 	}
 
 }
-.tt1 ul li {
-	padding: .3rem;
-}
+
 @media screen and (max-width: 580px){
 	.img{
 	margin-top: 20vh;
@@ -185,30 +186,26 @@ ul{
 	margin-left: auto;
 	margin-right: auto;
 	}
-	.cnt:nth-child(1){
+	.cnt.un{
 	flex: 100%;
 	}
-	.cnt:nth-child(2){
+	.cnt.deux{
 	flex: 100%;
 	}
-	.cnt:nth-child(2){
-	flex: 100%;
-	margin: 0;
-	}
-	.cnt:nth-child(3){
+	.cnt.trois{
 	flex: 100%;
 	margin: 0;
 	}
-	.tt1 h2{
+	.info-pers h2{
 		font-size: 10px;
 	}
-	.tt1 h3{
+	.info-pers h3{
 		font-size: 9px;
 	}
-	.tt span{
+	.icon span{
 		font-size: 
 	}
-	.tt1{
+	.info-pers{
 		margin: 0;
 		margin-left: -35px;
 	}
@@ -222,6 +219,30 @@ ul{
 	flex: 100%;
 	}
 }
+/*div[class="conteneur4"] h1{
+	margin: 0;
+	margin-top: 20px;
+	margin-bottom: 0;
+	font-size: 16px;
+	font-weight: bold;
+}
+div[class="cnt4"] h4{
+	margin: 0;
+	padding: 0;
+	font-size: 14px;
+}
+div[class="cnt4"] h5{
+	margin: 0;
+	font-weight: 400;
+	font-size: 16px;
+	padding: 0px;
+}
+div[class="cnt4"] p{
+	margin-top: -3px;
+	font-weight: normal;
+}*/
+
+
 /*@media only screen and (min-width: 700px){
 	.conteneur1{
   display: flex;
